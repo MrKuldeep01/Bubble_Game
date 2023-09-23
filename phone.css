@@ -1,0 +1,55 @@
+@media(max-width:450px){
+    .boxtop{
+        padding: 5px 10px;
+        
+    }
+}
+@media(max-width:365px){
+    .boxtop{
+        padding: 5px 0px;
+
+        
+    }
+    .topInfo {
+        padding: 5px;
+        gap: 5px;
+        
+    }
+    
+    .labelTop {
+    font-size: 12px;
+    }
+    .outtop {
+    font-size: 14px;
+    }
+    .mainbox {
+    padding: 5px;
+    gap: 5px;
+    width: 100%;
+    height: 80%;
+    
+}
+
+footer{
+    font-size: .8rem;
+    padding:5px ;
+    margin-top: 10px;
+}
+
+}
+@media(max-width:255px){
+ 
+    .container {
+        overflow: hidden;
+        width: 90%;
+        height: 95%;
+        margin-bottom: 0px;
+    }
+    .mainbox {
+       height: 80%;
+    }
+    footer{
+        margin-top:0px;
+        display:none;
+    }
+}
