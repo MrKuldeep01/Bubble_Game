@@ -37,9 +37,10 @@ const hitfun = () => {
       // timer+=15;
       // timerfun();
       hitassign();
-    } else {
+    } 
+    /*else {
       document.getElementById("notification").innerText = " Wrong item !";
-    }
+    }*/
   });
 };
 
